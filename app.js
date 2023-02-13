@@ -1,4 +1,4 @@
-const player = new Body(Math.random() * 100, Math.random() * 100, 32, 64, "player.png")
+const player = new Body(0, 0, 10, 10, "player.png")
 player.draw = () => {
   player.setX(mouse.x)
   player.setY(mouse.y)
